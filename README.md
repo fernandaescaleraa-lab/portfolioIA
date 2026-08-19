@@ -24,14 +24,6 @@ Perfil híbrido que combina gestión empresarial y optimización de procesos con
 [![Casos de Prueba](https://img.shields.io/badge/Casos%20de%20Prueba-Manual-00A4EF?style=for-the-badge)](#)
 [![Gestión de Incidentes](https://img.shields.io/badge/Incidentes-Tickets-0078D4?style=for-the-badge)](#)
 
-### IT & Soporte
-[![Redes](https://img.shields.io/badge/Redes-Troubleshooting-0f172a?style=for-the-badge)](#)
-[![Hardware](https://img.shields.io/badge/Hardware-Soporte-6b7280?style=for-the-badge)](#)
-
-### Control de versiones & DevTools
-[![Git](https://img.shields.io/badge/Git-Git-F05032?style=for-the-badge&logo=git&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fernandaescaleraa-lab)
-
 ### Gestión & Ofimática
 [![Excel](https://img.shields.io/badge/Excel-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](#)
 [![Google Workspace](https://img.shields.io/badge/Google-Workspace-0F9D58?style=for-the-badge&logo=google&logoColor=white)](#)
@@ -47,94 +39,8 @@ Perfil híbrido que combina gestión empresarial y optimización de procesos con
 
 ---
 
-## Proyectos destacados (plantillas listas para completar)
-
-A continuación tenés plantillas que podés copiar y pegar en cada repositorio de proyecto para mantener consistencia y facilitar lectura para reclutadores.
-
-### Proyecto 1 — Plan de Pruebas & Testing de API (Postman + Jira)
-**Nombre del proyecto:** Plan de Pruebas API - [Nombre del sistema]  
-**Descripción corta:** Planificación y ejecución de pruebas manuales y de API usando Postman; gestión de incidencias en Jira.  
-**Rol:** QA Manual / Coordinación de pruebas  
-**Tecnologías:** Postman, Jira, Git, Documentación (Markdown)  
-**Estado:** En progreso / Completado
-
-Ejemplo de README para el repo:
-```markdown
-# Plan de Pruebas - [Nombre del sistema]
-
-## Resumen
-Breve descripción del sistema y alcance de las pruebas.
-
-## Objetivos
-- Validar endpoints críticos
-- Validar manejo de errores
-- Validar flujos de negocio
-
-## Documentación
-- Colección Postman: /postman/collection.json
-- Casos de prueba: /docs/test-cases.md
-- Reporte de incidencias: Jira project KEY
-
-## Cómo ejecutar
-1. Importar colección Postman
-2. Ejecutar tests manuales según la sección "Casos de prueba"
-3. Reportar incidencias en Jira con plantilla incluida
-
-## Resultados esperados / Checklist
-- [ ] Todos los endpoints críticos validados
-- [ ] Reportes de incidencias documentados
-```
-
----
-
-### Proyecto 2 — Optimización de Procesos y Gestión de Datos
-**Nombre del proyecto:** Optimización de procesos internos  
-**Descripción corta:** Relevamiento de procesos, identificación de cuellos de botella y propuesta de mejoras con evidencia y métricas.  
-**Rol:** Analista de procesos / Soporte a la implementación  
-**Tecnologías:** Excel, Google Sheets, Documentación, Herramientas de seguimiento
-
-Plantilla README:
-```markdown
-# Optimización de Procesos - [Área]
-
-## Objetivo
-Descripción del objetivo del relevamiento y KPIs definidos.
-
-## Metodología
-- Relevamiento en sitio
-- Entrevistas
-- Análisis de datos (Excel / Sheets)
-
-## Entregables
-- Documento de relevamiento
-- Plan de mejora
-- Métricas antes/después
-```
-
----
-
-### Proyecto 3 — Caso de Soporte IT y Resolución de Incidentes
-**Nombre del proyecto:** Caso Soporte IT - Resolución de Incidentes  
-**Descripción corta:** Documentación de un incidente real/simulacro: diagnóstico, pasos de resolución, lecciones aprendidas.  
-**Rol:** Soporte Técnico / Analista TI  
-**Tecnologías:** Troubleshooting, Documentación, Herramientas de red
-
-Plantilla README:
-```markdown
-# Caso Soporte IT - [Incidente X]
-
-## Descripción del Incidente
-- Fecha, sistema afectado, usuarios impactados
-
-## Diagnóstico
-- Pasos realizados, logs, pruebas
-
-## Resolución
-- Solución aplicada paso a paso
-
-## Post-mortem
-- Causas raíz, acciones preventivas, métricas
-```
+## Proyectos
+Aquí irán mis proyectos. Por el momento está vacío — próximamente agregaré ejemplos de trabajos y repositorios.
 
 ---
 
@@ -157,7 +63,7 @@ Plantilla README:
 ---
 
 ## Contacto / Call to action
-Si querés conversar sobre oportunidades en QA, Soporte IT o análisis de sistemas, conectemos:
+Si querés conversar sobre oportunidades en QA, conectemos:
 
 - LinkedIn: https://linkedin.com/in/fernanda-escalera  
 - Email: [fernandaescaleraa@gmail.com](mailto:fernandaescaleraa@gmail.com)  
