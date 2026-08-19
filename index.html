@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fernanda Escalera — Portfolio</title>
+    <meta name="description" content="Portfolio de Fernanda Escalera — Estudiante en Licenciatura en Sistemas, QA Tester manual. Contacto y conocimientos." />
+
+    <!-- Google Fonts: Montserrat (títulos) y Roboto (cuerpo) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1 class="title">Fernanda Escalera</h1>
+          <p class="subtitle">Estudiante en Licenciatura en sistemas de informacion</p>
+        </div>
+
+        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir navegación">
+          ☰
+        </button>
+
+        <nav id="main-nav" class="nav" aria-label="Enlaces principales">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">Sobre mí</a></li>
+            <li><a href="#skills" class="nav-link">Conocimientos</a></li>
+            <li><a href="#projects" class="nav-link">Proyectos</a></li>
+            <li><a href="#contact" class="nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <section id="about" class="container section" aria-labelledby="about-heading">
+        <h2 id="about-heading">Sobre mí</h2>
+        <p>
+          Hola — soy Fernanda Escalera. Estoy estudiando la Licenciatura en Sistemas de Información de las Organizaciones. Realicé un curso de QA Tester manual en la UTN mediante la Fundación Empujar. Me interesa participar en equipos con procesos ágiles y aportar en la calidad del software.
+        </p>
+      </section>
+
+      <section id="skills" class="container section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Conocimientos</h2>
+        <p id="skills-desc" class="sr-only">Lista de habilidades y herramientas</p>
+        <ul class="skills-list" aria-describedby="skills-desc">
+          <li class="skill-item">Scrum</li>
+          <li class="skill-item">Testing manual</li>
+          <li class="skill-item">Git</li>
+          <li class="skill-item">Metodologías ágiles</li>
+          <li class="skill-item">C# (básico)</li>
+          <li class="skill-item">JIRA</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="container section" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Proyectos</h2>
+        <p class="muted">Aquí irán mis proyectos. Por el momento está vacío — próximamente agregaré ejemplos de trabajos y repositorios.</p>
+        <div class="projects-grid" aria-hidden="true">
+          <div class="project-card empty">Próximamente</div>
+        </div>
+      </section>
+
+      <section id="contact" class="container section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contacto</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:fernandaescaleraa@gmail.com">fernandaescaleraa@gmail.com</a></li>
+          <li>Teléfono: <a href="tel:+541125063401">+54 11 2506-3401</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/fernanda-escalera" target="_blank" rel="noopener noreferrer">linkedin.com/in/fernanda-escalera</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <small>© <span id="year"></span> Fernanda Escalera — Diseñado para procesos de selección</small>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

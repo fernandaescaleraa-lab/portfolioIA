@@ -1,0 +1,70 @@
+:root{
+  --bg:#ffffff;
+  --card:#f7f8fa;
+  --text:#0f172a;
+  --muted:#6b7280;
+  --accent:#0b5fff;
+  --radius:10px;
+  --gap:1rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color-scheme: light;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.5;
+  padding:0 1rem;
+}
+
+/* Utility */
+.container{max-width:1000px;margin:0 auto;padding:1.2rem 0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Header */
+.site-header{background:transparent;padding-top:1rem;padding-bottom:.5rem}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:var(--gap)}
+.brand{}
+.title{font-family:"Montserrat", "Roboto", sans-serif;font-size:1.3rem;margin:0;color:var(--text)}
+.subtitle{margin:0.2rem 0 0;font-size:.9rem;color:var(--muted)}
+
+/* Nav */
+.nav{display:none}
+.nav-link{margin-left:0.8rem;color:var(--muted);text-decoration:none;font-weight:500;font-size:.95rem}
+.nav-link:hover,.nav-link:focus{color:var(--accent)}
+.nav-toggle{background:transparent;border:0;font-size:1.4rem;cursor:pointer;color:var(--text)}
+
+/* Sections */
+.section{padding:1rem 0;border-bottom:1px solid #f0f0f0}
+.section h2{font-family:"Montserrat", "Roboto", sans-serif;font-size:1.1rem;margin:0 0 .6rem 0;color:var(--text)}
+
+/* Skills */
+.skills-list{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0;margin:0}
+.skill-item{background:var(--card);padding:.5rem .75rem;border-radius:999px;font-size:.95rem;color:var(--muted)}
+
+/* Projects */
+.projects-grid{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:0.8rem}
+.project-card{background:var(--card);border-radius:var(--radius);padding:1.2rem;min-height:80px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.project-card.empty{border:2px dashed #e5e7eb}
+
+/* Contact */
+.contact-list{list-style:none;padding:0;margin:0;font-size:1rem}
+.contact-list a{color:var(--accent)}
+
+/* Footer */
+.footer{text-align:center;padding:1.2rem 0;color:var(--muted);font-size:.9rem}
+
+/* Larger screens */
+@media(min-width:768px){
+  .title{font-size:1.5rem}
+  .nav{display:flex;align-items:center}
+  .nav-toggle{display:none}
+  .projects-grid{grid-template-columns:repeat(2, 1fr)}
+  .header-inner{padding: .5rem 0}
+  .nav-link{font-size:1rem}
+}

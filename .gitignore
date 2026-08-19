@@ -1,0 +1,14 @@
+# Sistema / OS
+.DS_Store
+Thumbs.db
+
+# Vercel & local builds
+.vercel
+dist
+build
+
+# Node (por si agregas herramientas luego)
+node_modules
+
+# Env
+.env
