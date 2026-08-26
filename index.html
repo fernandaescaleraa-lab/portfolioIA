@@ -4,127 +4,117 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Fernanda Escalera — Portfolio</title>
-    <meta name="description" content="Portfolio de Fernanda Escalera — Estudiante en Licenciatura en Sistemas, QA Tester Jr. Contacto y conocimientos." />
+    <meta name="description" content="Portfolio de Fernanda Escalera — Sistemas & QA Tester" />
 
-    <!-- Google Fonts: Montserrat (títulos) y Roboto (cuerpo) -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <div class="brand">
-          <h1 class="title">Fernanda Escalera</h1>
-          <p class="subtitle">Estudiante de Licenciatura en Sistemas de Información de las Organizaciones (UBA)</p>
+    <div id="cursor-outer" aria-hidden="true"></div>
+    <div id="cursor-inner" aria-hidden="true"></div>
 
-          <div class="badges" aria-hidden="false">
-            <a href="https://linkedin.com/in/fernanda-escalera" aria-label="LinkedIn" title="LinkedIn">
-              <img src="https://img.shields.io/badge/LinkedIn-fernanda--escalera-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-            </a>
-            <a href="mailto:fernandaescaleraa@gmail.com" aria-label="Email" title="Email">
-              <img src="https://img.shields.io/badge/Email-fernandaescaleraa%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-            </a>
-            <span title="Ubicación">
-              <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-CABA%20%7C%20Argentina-4c1?style=for-the-badge" alt="Ubicación" />
-            </span>
-            <a href="https://github.com/fernandaescaleraa-lab" aria-label="GitHub" title="GitHub">
-              <img src="https://img.shields.io/badge/GitHub-@fernandaescaleraa--lab-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-            </a>
-          </div>
-        </div>
-
-        <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir navegación">
-          ☰
-        </button>
-
-        <nav id="main-nav" class="nav" aria-label="Enlaces principales">
-          <ul class="nav-list">
-            <li><a href="#about" class="nav-link">Sobre mí</a></li>
-            <li><a href="#stack" class="nav-link">Stack</a></li>
-            <li><a href="#projects" class="nav-link">Proyectos</a></li>
-            <li><a href="#education" class="nav-link">Formación</a></li>
-            <li><a href="#stats" class="nav-link">Estadísticas</a></li>
-            <li><a href="#contact" class="nav-link">Contacto</a></li>
-          </ul>
+    <header class="nav-fixed" role="banner">
+      <div class="container nav-inner">
+        <a class="logo" href="#">Fernanda.</a>
+        <nav class="nav" aria-label="Principal">
+          <a href="#about">Sobre mí</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#education">Formación</a>
+          <a href="#contact">Contacto</a>
         </nav>
+        <a class="btn-cv" href="/Fernanda_Escalera_CV.pdf" download>Descargar CV</a>
+        <button class="nav-toggle" aria-label="Abrir menú">☰</button>
       </div>
     </header>
 
-    <main id="content" tabindex="-1">
-      <section id="about" class="container section" aria-labelledby="about-heading">
-        <h2 id="about-heading">Propuesta de valor / Sobre mí</h2>
-        <p>
-          Perfil híbrido que combina gestión empresarial y optimización de procesos con entornos tecnológicos e IT. Estudiante avanzada en la UBA con formación complementaria en Testing y Soporte Técnico (UTN & Fundación Empujar). Proactiva, con pensamiento analítico, orientación al detalle y enfoque en calidad de software, gestión de incidentes y resolución de problemas organizacionales.
-        </p>
-      </section>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hello">Hola, soy</p>
+            <h1 class="hero-title">FERNANDA ESCALERA</h1>
+            <h2 class="hero-sub">SISTEMAS & <span class="accent">QA TESTER</span></h2>
+            <p class="lead">Estudiante en Licenciatura en Sistemas de Información de las Organizaciones (UBA). Enfoque en calidad de software, testing manual y procesos ágiles.</p>
 
-      <section id="stack" class="container section" aria-labelledby="stack-heading">
-        <h2 id="stack-heading">Stack técnico & Herramientas</h2>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">Ver Proyectos</a>
+              <a class="btn ghost" href="#contact">Contactar</a>
+            </div>
+          </div>
 
-        <h3>Testing / QA</h3>
-        <div class="badge-row">
-          <a href="https://www.atlassian.com/software/jira"><img src="https://img.shields.io/badge/Jira-JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/></a>
-          <a href="https://www.postman.com"><img src="https://img.shields.io/badge/Postman-API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/></a>
-          <img src="https://img.shields.io/badge/Casos%20de%20Prueba-Manual-00A4EF?style=for-the-badge" alt="Casos de Prueba"/>
-          <img src="https://img.shields.io/badge/Incidentes-Tickets-0078D4?style=for-the-badge" alt="Incidentes"/>
-        </div>
-
-        <h3>Gestión & Ofimática</h3>
-        <div class="badge-row">
-          <img src="https://img.shields.io/badge/Excel-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel"/>
-          <img src="https://img.shields.io/badge/Google-Workspace-0F9D58?style=for-the-badge&logo=google&logoColor=white" alt="Google Workspace"/>
-        </div>
-
-        <h3>Metodologías & Habilidades</h3>
-        <div class="badge-row">
-          <img src="https://img.shields.io/badge/Agile-Scrum-3AA7FF?style=for-the-badge" alt="Agile/Scrum"/>
-          <img src="https://img.shields.io/badge/Pensamiento-Analítico-6b7280?style=for-the-badge" alt="Pensamiento Analítico"/>
-          <img src="https://img.shields.io/badge/Atenci%C3%B3n%20al%20detalle-Quality-111827?style=for-the-badge" alt="Atención al detalle"/>
-        </div>
-
-        <h3>Idiomas</h3>
-        <div class="badge-row">
-          <img src="https://img.shields.io/badge/Espa%C3%B1ol-Nativo-006400?style=for-the-badge" alt="Español"/>
-          <img src="https://img.shields.io/badge/Ingl%C3%A9s-A2%20%7C%20En%20formaci%C3%B3n-1E90FF?style=for-the-badge" alt="Inglés"/>
+          <div class="hero-photo" aria-hidden="false">
+            <div class="photo-frame" aria-hidden="true">
+              <span class="initials">FE</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="projects" class="container section" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Proyectos</h2>
+      <section id="about" class="section container">
+        <h3>Propuesta de valor</h3>
+        <p>Perfil híbrido que combina gestión y optimización de procesos con entornos tecnológicos. Proactiva, con pensamiento analítico y orientación al detalle, centrada en la calidad del software y la gestión de incidencias.</p>
+      </section>
+
+      <section id="skills" class="section container">
+        <h3>Skills</h3>
+        <div class="cards-grid">
+          <div class="card">
+            <h4>Testing & QA</h4>
+            <div class="tags"><span>Jira</span><span>Postman</span><span>Casos de prueba</span><span>Incidentes</span></div>
+          </div>
+          <div class="card">
+            <h4>Gestión & Ofimática</h4>
+            <div class="tags"><span>Excel</span><span>Google Workspace</span></div>
+          </div>
+          <div class="card">
+            <h4>Metodologías</h4>
+            <div class="tags"><span>Agile / Scrum</span><span>Pensamiento analítico</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h3>Proyectos</h3>
         <div class="projects-grid">
-          <article class="project-card" aria-labelledby="proj-cine-title">
-            <h3 id="proj-cine-title">App de Reserva de Cine</h3>
-            <p>Aplicación web interactiva para cartelera, selección de horarios y reserva de entradas de cine.</p>
-            <p>
-              <a href="https://app-cine-beta.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-primary">Ver Demo</a>
-              <a href="https://github.com/fernandaescaleraa-lab/app-cine" target="_blank" rel="noopener noreferrer" class="btn-outline">Repositorio</a>
-            </p>
+          <article class="project-card feature">
+            <div class="project-meta">
+              <h4>App de Reserva de Cine</h4>
+              <p class="muted">Aplicación web interactiva para cartelera, selección de horarios y reserva de entradas de cine.</p>
+            </div>
+            <div class="project-actions">
+              <a class="btn primary small" href="https://app-cine-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Ver Demo</a>
+              <a class="btn outline small" href="https://github.com/fernandaescaleraa-lab/app-cine" target="_blank" rel="noopener noreferrer">Repositorio</a>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="education" class="container section" aria-labelledby="education-heading">
-        <h2 id="education-heading">Formación y certificaciones</h2>
-        <ul>
-          <li>Licenciatura en Sistemas de Información de las Organizaciones — UBA (en curso)</li>
-          <li>Testing Master & Empleabilidad IT — UTN & Fundación Empujar (153 hs)</li>
-          <li>Cursos adicionales: Soporte Técnico, Troubleshooting</li>
-        </ul>
-      </section>
+      <section id="education" class="section container">
+        <h3>Formación</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time">En curso</div>
+            <div class="content">
+              <strong>Licenciatura en Sistemas de Información de las Organizaciones</strong>
+              <div class="muted">UBA</div>
+            </div>
+          </div>
 
-      <section id="stats" class="container section" aria-labelledby="stats-heading">
-        <h2 id="stats-heading">Estadísticas de GitHub</h2>
-        <p>Estadísticas públicas basadas en mi usuario GitHub.</p>
-        <div class="stats-grid">
-          <img src="https://github-readme-stats.vercel.app/api?username=fernandaescaleraa-lab&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandaescaleraa-lab&layout=compact&theme=tokyonight" alt="Top Languages" />
+          <div class="timeline-item">
+            <div class="time">2024</div>
+            <div class="content">
+              <strong>Testing Master & Empleabilidad IT</strong>
+              <div class="muted">UTN & Fundación Empujar — 153 hs</div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="container section" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contacto</h2>
+      <section id="contact" class="section container">
+        <h3>Contacto</h3>
         <ul class="contact-list">
           <li>LinkedIn: <a href="https://linkedin.com/in/fernanda-escalera" target="_blank" rel="noopener noreferrer">linkedin.com/in/fernanda-escalera</a></li>
           <li>Email: <a href="mailto:fernandaescaleraa@gmail.com">fernandaescaleraa@gmail.com</a></li>
@@ -133,12 +123,12 @@
       </section>
     </main>
 
-    <footer class="footer" role="contentinfo">
+    <footer class="footer">
       <div class="container">
-        <small>© <span id="year"></span> Fernanda Escalera — Diseñado para procesos de selección</small>
+        <small>© <span id="year"></span> Fernanda Escalera</small>
       </div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
   </body>
 </html>
