@@ -59,8 +59,13 @@ h3{font-family:'Montserrat',sans-serif;margin:0 0 .8rem 0}
 .projects-grid{display:grid;gap:1rem}
 .project-card{display:flex;flex-direction:column;gap:.8rem;background:var(--card);padding:1rem;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
 .project-card.feature{border-left:4px solid var(--accent);}
+.project-meta{display:flex;flex-direction:column;gap:.7rem}
+.project-header{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
 .project-meta h4{margin:0}
-.project-actions{display:flex;gap:.6rem}
+.project-meta p{margin:0}
+.project-status{display:inline-flex;align-items:center;justify-content:center;padding:.35rem .7rem;border-radius:999px;background:var(--accent-2);color:var(--text);font-size:.75rem;font-weight:600;border:1px solid rgba(244,114,182,0.08)}
+.project-actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.project-note{font-size:.85rem;color:var(--muted)}
 .btn.small{padding:.45rem .8rem;border-radius:8px}
 .btn.outline{background:transparent;border:1px solid var(--accent);color:var(--accent)}
 .btn.primary.small{background:var(--accent);color:#fff}
