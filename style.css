@@ -40,7 +40,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);margin:0}
 .btn.ghost{background:transparent;border:1px solid rgba(31,41,55,0.06);color:var(--text)}
 
 .hero-photo{display:flex;align-items:center;justify-content:center}
-.photo-frame{width:200px;height:200px;border-radius:16px;background:linear-gradient(180deg,var(--accent-2),#fff);display:flex;align-items:center;justify-content:center;border:1px solid var(--border);box-shadow:var(--shadow)}
+.photo-frame{width:200px;height:200px;border-radius:16px;background:linear-gradient(180deg,var(--accent-2),#fff);display:flex;align-items:center;justify-content:center;border:1px solid var(--border)}
 .photo-frame .initials{font-family:'Montserrat';font-size:2.2rem;color:var(--text)}
 
 /* SECTIONS */
@@ -60,10 +60,79 @@ h3{font-family:'Montserrat',sans-serif;margin:0 0 .8rem 0}
 .project-card{display:flex;flex-direction:column;gap:.8rem;background:var(--card);padding:1rem;border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow)}
 .project-card.feature{border-left:4px solid var(--accent);}
 .project-meta{display:flex;flex-direction:column;gap:.7rem}
-.project-header{display:flex;align-items:center;justify-content:space-between;gap:.75rem}
+
+.project-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:12px;
+  width:100%;
+}
+
+.project-header .company-row,
+.company-row{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  width:100%;
+  min-width:0;
+}
+
+.company-logo,
+.company-initial,
+.job-avatar,
+.card-avatar{
+  flex-shrink:0;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--accent-2);
+  color:var(--text);
+  font-weight:700;
+  font-size:.9rem;
+}
+
+.company-text,
+.card-copy,
+.job-copy{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+.company-text h4,
+.company-text .company-name,
+.card-copy h4,
+.job-copy h4,
+.card-copy .company-name,
+.job-copy .company-name{
+  margin:0;
+  line-height:1.3;
+  white-space:normal;
+  word-break:normal;
+  overflow-wrap:normal;
+  hyphens:none;
+}
+
+.company-text p,
+.card-copy p,
+.job-copy p,
+.company-text .role,
+.card-copy .role,
+.job-copy .role{
+  margin:0;
+  line-height:1.35;
+  white-space:normal;
+  word-break:normal;
+  overflow-wrap:normal;
+}
+
 .project-meta h4{margin:0}
 .project-meta p{margin:0}
-.project-status{display:inline-flex;align-items:center;justify-content:center;padding:.35rem .7rem;border-radius:999px;background:var(--accent-2);color:var(--text);font-size:.75rem;font-weight:600;border:1px solid rgba(244,114,182,0.08)}
+.project-status{display:inline-flex;align-items:center;justify-content:center;padding:.35rem .7rem;border-radius:999px;background:var(--accent-2);color:var(--text);font-size:.75rem;font-weight:600;line-height:1;flex-shrink:0;position:static;top:auto;right:auto;transform:none}
 .project-actions{display:flex;gap:.6rem;flex-wrap:wrap}
 .project-note{font-size:.85rem;color:var(--muted)}
 .btn.small{padding:.45rem .8rem;border-radius:8px}
